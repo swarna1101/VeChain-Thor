@@ -11,6 +11,14 @@ This repository contains a node server that syncs with the VeChain Thor testnet 
 * Chai (for testing)
 * Mocha (for testing)
 
+## Features
+* Syncs with the VeChain Thor testnet
+* REST endpoint for sending X amount to a specific address
+* UI for interacting with the API
+* Unit, integration, and regression tests
+* CI/CD pipeline for automated testing and deployment
+* Docker support for local development and deployment
+
 ## Setting up the project
 
 1. Clone the repository
