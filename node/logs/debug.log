@@ -1,0 +1,3 @@
+[2022-01-01 00:00:00] [DEBUG] VeChain Thor node starting up
+[2022-01-01 00:01:00] [DEBUG] Loading configuration from default.json
+[2022-01-01 00:02:00] [DEBUG] Connecting to database vechain-testnet at localhost:27017
