@@ -1,9 +1,9 @@
 {
-  "name": "vechain-project",
+  "name": "vechain-thor",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "mocha",
+    "test": "npm run ui:test",
     "node:start": "node src/main.js",
     "node:stop": "pkill -f 'node src/main.js'",
     "api:start": "node src/server.js",
@@ -13,8 +13,7 @@
     "ui:test": "react-scripts test",
     "ui:eject": "react-scripts eject",
     "start": "concurrently --kill-others-on-fail 'npm run node:start' 'npm run api:start' 'npm run ui:start'",
-    "build": "npm run ui:build",
-    "test": "npm run ui:test"
+    "build": "npm run ui:build"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -30,5 +29,21 @@
   "engines": {
     "node": "12.x"
   },
-  "types": "ui/src/@types/react/index.d.ts"
+  "types": "ui/src/@types/react/index.d.ts",
+  "description": "To set up a machine that runs a node server that syncs with the VeChain Thor testnet, you will need to follow these steps:",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarna1101/VeChain-Thor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swarna1101/VeChain-Thor/issues"
+  },
+  "homepage": "https://github.com/swarna1101/VeChain-Thor#readme"
 }
