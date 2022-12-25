@@ -1,0 +1,12 @@
+{
+  "nodeUrl": "https://mainnet.vechain.org",
+  "database": {
+    "host": "prod-db.vechain.org",
+    "port": 27017,
+    "name": "vechain-mainnet"
+  },
+  "rpc": {
+    "host": "prod-rpc.vechain.org",
+    "port": 8669
+  }
+}
