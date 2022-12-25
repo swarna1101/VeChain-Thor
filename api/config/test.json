@@ -1,0 +1,11 @@
+{
+  "rpc": {
+    "url": "http://vechain-node.test.com:8545"
+  },
+  "database": {
+    "uri": "mongodb://vechain-db.test.com:27017/vechain"
+  },
+  "server": {
+    "port": 3000
+  }
+}

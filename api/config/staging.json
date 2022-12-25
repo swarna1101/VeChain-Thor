@@ -1,0 +1,11 @@
+{
+  "rpc": {
+    "url": "http://vechain-node.staging.com:8545"
+  },
+  "database": {
+    "uri": "mongodb://vechain-db.staging.com:27017/vechain"
+  },
+  "server": {
+    "port": 80
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rpc": {
+    "url": "http://localhost:8545"
+  },
+  "database": {
+    "uri": "mongodb://localhost:27017/vechain"
+  },
+  "server": {
+    "port": 3000
+  }
+}

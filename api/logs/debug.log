@@ -1,0 +1,3 @@
+[2022-01-01T00:00:00.000Z] DEBUG: Request payload: {"txHash":"0x4e4b1e5e8a80bd746b0f78e13f037d9c6a7e6cc1f6edba45b2faa6a34b05c2b6","amount":"0x1"}
+[2022-01-02T00:00:00.000Z] DEBUG: Response payload: {"txHash":"0x4e4b1e5e8a80bd746b0f78e13f037d9c6a7e6cc1f6edba45b2faa6a34b05c2b6","status":"SUCCESS"}
+[2022-01-03T00:00:00.000Z] DEBUG: RPC call to node: {"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0x4e4b1e5e8a80bd746b0f78e13f037d9c6a7e6cc1f6edba45b2faa6a34b05c2b6"],"id":1}
