@@ -1,2 +1,33 @@
-.DS_Store
-node_modules
+# Ignore configuration files
+config/*.json
+
+# Ignore logs
+logs/*.log
+
+# Ignore data files
+data/*.json
+
+# Ignore compiled files
+build/*
+
+# Ignore Docker files
+Dockerfile
+docker-compose.yml
+
+# Ignore test artifacts
+test-results/*
+
+# Ignore node modules
+node_modules/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore CI/CD configuration files
+.gitlab-ci.yml
+.travis.yml
+
+# Ignore API keys and secrets
+.env
+secrets.json
